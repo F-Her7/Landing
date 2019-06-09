@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+    background-image: linear-gradient(to top right, #2d1455, #8629d0);
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: transparent !important;
+  }
+.navbar{
+    padding-top: 35px !important;
+    padding: 2.5rem 4rem !important; 
+  }
+
+.nav-link{
+    color: white !important;
+    padding-right: 70px !important;
+}
+.nav-link:hover{
+    opacity: 0.5;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    padding-left: 24%;
+}
+.navbar-brand{
+    padding-left: 50px;
+    color: fuchsia !important;
+}
+.btn{
+    background-color: white !important;
+    border-radius: 15px !important;
+    color: #8629d0 !important;
+    border: 2px solid white !important;
+    padding: 5px 25px !important;
+    font-family: 'Francois One', sans-serif;
+    font-weight: bold !important;  
+}
+
+.primera_parte{
+    max-width: 40%;
+    color: white;
+    padding-top: 120px;
+
+}
+.segunda_parte{
+    max-width: 45%; 
+    color: #8629d0;
+
+}
+.boton{
+    padding-top: 15px;
+    padding-left: 130px; 
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.tff{
+    background-image: linear-gradient(to top right, #8a2ae3, #6813e2);
+    color: white;
+    width: 170px;
+    height: 45px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Francois One', sans-serif;
+    font-size: 18px;
+    box-shadow: 8px 16px 23px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    
+
+}
+.btn:hover{
+    background-color: white !important;
+    opacity: 0.50;
+    transform: translateY(-7px);
+}
+.tff:hover{
+    opacity: 0.50;
+    color: black !important;
+    transform: translateY(-7px);
+}
+#tffup{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+#tffup:hover{
+    opacity: 0.50;
+    transform: translateY(-7px);
+    color: black !important;
+}
+img{
+    float: right;
+    max-width: 50%;
+    padding-top: 75px;
+}
